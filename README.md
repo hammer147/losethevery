@@ -10,6 +10,5 @@ When we need to fetch data in a client component, we can do that, but if we use 
 
 Note that in this example:
 
-- the root does not have a page, because we immediately redirect to and example (see next.config.js).
 - input.tsx is the only client component
 - we fetch data in the server in 2 ways: in the server component (suggestion.tsx) and in the api route

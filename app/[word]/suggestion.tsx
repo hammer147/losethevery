@@ -19,6 +19,7 @@ async function getSuggestion(word: string) {
   })
 }
 
+// ts hack because ts doesn't support async components yet
 function asyncComponent<T, R>(fn: (arg: T) => Promise<R>): (arg: T) => R {
   return fn as (arg: T) => R
 }
